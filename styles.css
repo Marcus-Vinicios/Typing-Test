@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+* {
+    font-family: 'Baloo 2';
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.instructions {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#text {
+    font-size: 1.2rem;
+    background-color: #e3e3e3;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+    width: 100%;
+}
+
+#input {
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+#result {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    font-size: 1rem;
+    padding: .6rem 1.2rem;
+    background-color: #007bff;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Light theme */
+
+.light {
+    background-color: #eee;
+    color: #333;
+    transition: .5s;
+}
+
+.light .header {
+    background-color: #a3a3a3;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: .5s;
+}
+
+.light .header button {
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #333;
+    padding: .5em;
+    color: #333;
+    font-size: 1rem;
+    transition: .5s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.light .header button:hover {
+    color: #fff;
+    background-color: #080808;
+}
+
+/* Dark theme */
+
+.dark {
+    background-color: #333;
+    color: #FFF;
+    transition: .5s;
+}
+
+.dark #text {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.dark .header {
+    background-color: #080808;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: .5s;
+}
+
+.dark .header button {
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: .5em;
+    color: #fff;
+    font-size: 1rem;
+    transition: .5s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dark .header button:hover {
+    color: #080808;
+    background-color: #FFF;
+}
